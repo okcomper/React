@@ -1,0 +1,18 @@
+usestate
+
+destructuring - array, object에 있던 자료를 변수에 쉽게 담고싶을때 
+
+let [a,b] = usestate('아이즈원복귀')
+
+[10, 100]; 이걸 변수로 담고싶다
+=> var [a,b] = [10,100]
+=> a = 10 / b = 100 이렇게 각자로 담김\
+
+state = 변수선언대신 사용할수있는 특별한 공간 / 문자 숫자 array object 다 저장 가능
+사용법 = useState()를 이용해서 활용
+
+state를 활용하는 이유? 웹이 App처럼 동작하게 만들고 싶어서
+수정되거나 여러게 제목이있어서 바뀔수있어 그럴경우 데이터가 바뀌면 State를 활용하면 HTML로 자동으로 재렌더링이됨
+그냥 변수선언하면 다시 컴파일해야 바뀜
+
+/* eslint-disable */ - warning 보기싫음 써라
